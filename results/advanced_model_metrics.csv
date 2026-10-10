@@ -1,0 +1,4 @@
+﻿Model,MAE,RMSE,R2
+Hybrid VAR (Baseline),0.73090,0.91410,0.99400
+ESN (Non-linear),10.93494,15.64887,-1.08580
+LSTNet (Deep Learning),7.21236,7.95202,0.30044

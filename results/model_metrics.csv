@@ -1,0 +1,31 @@
+﻿Model,Pollutant,MAE,RMSE,R2
+Seasonal naive,PM2.5,0.94326,0.97122,0.99520
+Seasonal naive,PM10,1.43972,1.55969,0.99572
+Seasonal naive,O3,0.94326,0.97122,0.99759
+Seasonal naive,NO2,0.00000,0.00000,1.00000
+Seasonal naive,SO2,0.00000,0.00000,1.00000
+Seasonal naive,CO,0.00000,0.00000,1.00000
+Ridge lag model,PM2.5,2.65846,3.65865,0.93188
+Ridge lag model,PM10,4.96506,6.88381,0.91672
+Ridge lag model,O3,2.96642,4.11086,0.95676
+Ridge lag model,NO2,1.83261,2.37661,0.97063
+Ridge lag model,SO2,0.51727,0.75084,0.15650
+Ridge lag model,CO,0.04768,0.06682,0.91058
+VAR joint model,PM2.5,27.34927,33.45636,-4.69644
+VAR joint model,PM10,38.62235,47.91986,-3.03562
+VAR joint model,O3,17.45671,20.65917,-0.09211
+VAR joint model,NO2,33.33496,39.07286,-6.93879
+VAR joint model,SO2,0.56773,0.68456,0.29883
+VAR joint model,CO,0.33730,0.40592,-2.29956
+Hybrid periodic VAR,PM2.5,0.73938,0.99108,0.99500
+Hybrid periodic VAR,PM10,1.26427,1.64655,0.99524
+Hybrid periodic VAR,O3,1.67112,1.93059,0.99046
+Hybrid periodic VAR,NO2,0.63878,0.82825,0.99643
+Hybrid periodic VAR,SO2,0.05842,0.07098,0.99246
+Hybrid periodic VAR,CO,0.01328,0.01705,0.99418
+VAR time-meteorology,PM2.5,27.34927,33.45636,-4.69644
+VAR time-meteorology,PM10,38.62235,47.91986,-3.03562
+VAR time-meteorology,O3,17.45671,20.65917,-0.09211
+VAR time-meteorology,NO2,33.33496,39.07286,-6.93879
+VAR time-meteorology,SO2,0.56773,0.68456,0.29883
+VAR time-meteorology,CO,0.33730,0.40592,-2.29956

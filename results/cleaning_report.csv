@@ -1,0 +1,2 @@
+﻿start,end,raw_rows_after_header,invalid_datetime_rows,duplicate_timestamps,inserted_missing_hours,clean_rows,remaining_missing_values
+2026-01-01 00:00:00,2026-03-31 23:00:00,2162,2,1,1,2160,0

@@ -1,0 +1,149 @@
+{
+  "cleaning_report": {
+    "start": "2026-01-01 00:00:00",
+    "end": "2026-03-31 23:00:00",
+    "raw_rows_after_header": 2162,
+    "invalid_datetime_rows": 2,
+    "duplicate_timestamps": 1,
+    "inserted_missing_hours": 1,
+    "clean_rows": 2160,
+    "remaining_missing_values": 0
+  },
+  "aqi_accuracy": 1.0,
+  "best_metrics": [
+    {
+      "Model": "Hybrid periodic VAR",
+      "Pollutant": "PM2.5",
+      "MAE": 0.7394,
+      "RMSE": 0.9911,
+      "R2": 0.995
+    },
+    {
+      "Model": "Hybrid periodic VAR",
+      "Pollutant": "PM10",
+      "MAE": 1.2643,
+      "RMSE": 1.6465,
+      "R2": 0.9952
+    },
+    {
+      "Model": "Hybrid periodic VAR",
+      "Pollutant": "O3",
+      "MAE": 1.6711,
+      "RMSE": 1.9306,
+      "R2": 0.9905
+    },
+    {
+      "Model": "Hybrid periodic VAR",
+      "Pollutant": "NO2",
+      "MAE": 0.6388,
+      "RMSE": 0.8283,
+      "R2": 0.9964
+    },
+    {
+      "Model": "Hybrid periodic VAR",
+      "Pollutant": "SO2",
+      "MAE": 0.0584,
+      "RMSE": 0.071,
+      "R2": 0.9925
+    },
+    {
+      "Model": "Hybrid periodic VAR",
+      "Pollutant": "CO",
+      "MAE": 0.0133,
+      "RMSE": 0.017,
+      "R2": 0.9942
+    }
+  ],
+  "best_lag_effects": [
+    {
+      "Pollutant": "CO",
+      "Driver": "humidity",
+      "Lag_h": 1,
+      "Correlation": 0.2376
+    },
+    {
+      "Pollutant": "CO",
+      "Driver": "temperature",
+      "Lag_h": 0,
+      "Correlation": -0.521
+    },
+    {
+      "Pollutant": "NO2",
+      "Driver": "humidity",
+      "Lag_h": 0,
+      "Correlation": 0.1394
+    },
+    {
+      "Pollutant": "NO2",
+      "Driver": "temperature",
+      "Lag_h": 10,
+      "Correlation": 0.1839
+    },
+    {
+      "Pollutant": "O3",
+      "Driver": "humidity",
+      "Lag_h": 35,
+      "Correlation": -0.1115
+    },
+    {
+      "Pollutant": "O3",
+      "Driver": "temperature",
+      "Lag_h": 0,
+      "Correlation": 0.404
+    },
+    {
+      "Pollutant": "PM10",
+      "Driver": "humidity",
+      "Lag_h": 11,
+      "Correlation": 0.1023
+    },
+    {
+      "Pollutant": "PM10",
+      "Driver": "temperature",
+      "Lag_h": 15,
+      "Correlation": 0.3533
+    },
+    {
+      "Pollutant": "PM2.5",
+      "Driver": "humidity",
+      "Lag_h": 0,
+      "Correlation": 0.1727
+    },
+    {
+      "Pollutant": "PM2.5",
+      "Driver": "temperature",
+      "Lag_h": 12,
+      "Correlation": 0.4835
+    },
+    {
+      "Pollutant": "SO2",
+      "Driver": "humidity",
+      "Lag_h": 12,
+      "Correlation": 0.1931
+    },
+    {
+      "Pollutant": "SO2",
+      "Driver": "temperature",
+      "Lag_h": 29,
+      "Correlation": 0.1678
+    }
+  ],
+  "aqi_level_counts": {
+    "Lightly polluted": 1328,
+    "Good": 832
+  },
+  "primary_pollutant_counts": {
+    "PM2.5": 2085,
+    "PM10": 75
+  },
+  "figure_count_png": 19,
+  "activity_advice": {
+    "Excellent": "适宜户外活动；建议正常通风与锻炼。",
+    "Good": "适宜户外活动；敏感人群可以减少极长时间运动。",
+    "Lightly polluted": "减少长时间高强度户外活动，敏感人群建议室内。",
+    "Moderately polluted": "室内锻炼，缩短户外停留时间。",
+    "Heavily polluted": "避免户外锻炼，活动尽量安排在室内。",
+    "Severely polluted": "避免一切户外活动，室内采取防护措施。"
+  },
+  "advanced_comparison_available": true
+}

@@ -1,0 +1,13 @@
+﻿Pollutant,Driver,Lag_h,Correlation
+CO,humidity,1,0.23756
+CO,temperature,0,-0.52101
+NO2,humidity,0,0.13944
+NO2,temperature,10,0.18395
+O3,humidity,35,-0.11154
+O3,temperature,0,0.40402
+PM10,humidity,11,0.10235
+PM10,temperature,15,0.35331
+PM2.5,humidity,0,0.17271
+PM2.5,temperature,12,0.48351
+SO2,humidity,12,0.19314
+SO2,temperature,29,0.16777
